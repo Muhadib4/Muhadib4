@@ -1,5 +1,5 @@
-![banner](img/github-header-banner.png)
-![gif](gif/World%20Clouds%20GIF%20by%20Xbox.gif)
+![banner](img/github-header-banner%20columbina.png)
+![gif](gif/columbina%20genshin-impact-genshin.gif)
 
 
 
