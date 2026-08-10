@@ -1,5 +1,10 @@
 ## Hello, I'm Muhadiib
 ![banner](img/github-header-banner.png)
+![gif](gif/World%20Clouds%20GIF%20by%20Xbox.gif)
+
+
+- 🌱 I’m currently learning Computer Science
+
 
 
 <!--
@@ -15,5 +20,3 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-- 🌱 I’m currently learning Computer Science
