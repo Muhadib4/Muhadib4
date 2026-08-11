@@ -20,7 +20,7 @@
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
 
-<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31yeisq3xtb66gzn4mwvrflb6vji&cover_image=true&theme=compact&show_offline=false&background_color=181818&border_radius=18&bar_color_cover=true&interchange=true&profanity=true&hide_remaster=true&mode=dark" alt="Spotify" width="200">
+<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31yeisq3xtb66gzn4mwvrflb6vji&cover_image=true&theme=compact&show_offline=false&background_color=181818&border_radius=18&bar_color_cover=true&interchange=true&profanity=true&hide_remaster=true&mode=dark" alt="Spotify" width="202.5">
 
 <img src="https://spotify-recently-played-readme.vercel.app/api?user=31yeisq3xtb66gzn4mwvrflb6vji&count=5&width=400" alt="Recently Played" width="300">
 
