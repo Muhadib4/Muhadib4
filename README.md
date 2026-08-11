@@ -6,7 +6,7 @@
 ![gif](gif/columbina%20genshin-impact-genshin.gif)
 
 
-#### Hi !, i'm Muhadiib <img src="gif/Face Smile GIF.gif" width="30px">
+#### Hi !, i'm Muhadiib <img src="gif/hi.gif" width="30px">
 
 <!-- laguuuuuuuuu -->
 
