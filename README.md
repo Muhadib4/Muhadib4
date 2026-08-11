@@ -52,17 +52,21 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/m/m/pacman-output/pacman-contribution-graph.svg?game=pacman">
 </picture>
 
-###
 
+
+
+###
 
 <div align="center">
 
 ## Discord
 
-<img
-  src="https://lanyard.cnrad.dev/api/747981930447765567?theme=dark&bg=181818&borderRadius=18px&animated=true&hideActivity=false"
-  alt="Discord Status"
-/>
+<a href="https://discord.com/users/747981930447765567">
+  <img
+    src="https://lanyard.cnrad.dev/api/747981930447765567"
+    alt="Discord Presence"
+  />
+</a>
 
 </div>
 
