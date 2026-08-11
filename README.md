@@ -11,15 +11,24 @@
 ##### Skills
 <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" />   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" />  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
 
-
+<!-- laguuuuuuuuu -->
 
 <div align="center">
 
 ## Currently Listening
 
-<a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31yeisq3xtb66gzn4mwvrflb6vji&redirect=true">
+<a href="https://open.spotify.com/user/31yeisq3xtb66gzn4mwvrflb6vji">
   <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31yeisq3xtb66gzn4mwvrflb6vji&cover_image=true&theme=spotify-embed&show_offline=true&background_color=181818&border_radius=18&bar_color_cover=true&interchange=true&profanity=true&hide_remaster=true&mode=dark" alt="Currently listening on Spotify" />
 </a>
+
+<br>
+
+<a href="https://open.spotify.com/user/31yeisq3xtb66gzn4mwvrflb6vji">
+  <img src="https://spotify-recently-played-readme.vercel.app/api?user=31yeisq3xtb66gzn4mwvrflb6vji&count=5&width=600" alt="Recently played on Spotify" />
+</a>
+
+</div>
+
 
 </div>
 
