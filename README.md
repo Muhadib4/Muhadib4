@@ -18,7 +18,7 @@ I’m currently learning Full-Stack Development and exploring how modern web tec
 
 ---
 
-[![d3eep.'s Discord status](https://dsc-readme.tsuni.dev/api/user/747981930447765567?pronouns=he%2Fhim&banner=https%3A%2F%2Fmedia0.giphy.com%2Fmedia%2Fv1.Y2lkPTc5MGI3NjExY3AzMWxmMWdhN3hwcGllM2FoeDIzOWYwZjF2cm12ejU2cHkzYWluMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw%2FUg59K3twaiPYiHG8aN%2Fgiphy.gif&theme=tokyoNight&width=512&nameColor1=ffffff)](https://github.com/the-snesler/discord-github-preview)
+[![d3eep.'s Discord status](https://dsc-readme.tsuni.dev/api/user/747981930447765567?pronouns=he%2Fhim&banner=https%3A%2F%2Fmedia0.giphy.com%2Fmedia%2Fv1.Y2lkPTc5MGI3NjExY3AzMWxmMWdhN3hwcGllM2FoeDIzOWYwZjF2cm12ejU2cHkzYWluMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw%2FUg59K3twaiPYiHG8aN%2Fgiphy.gif&theme=tokyoNight&width=512&nameColor1=ffffff)](https://discord.gg/skwFubbtqN)
 
 ---
 
