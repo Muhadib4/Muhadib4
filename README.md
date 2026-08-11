@@ -13,9 +13,15 @@
 
 
 
+<div align="center">
+
 ## Currently Listening
 
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=31yeisq3xtb66gzn4mwvrflb6vji&cover_image=true&theme=spotify-embed&show_offline=true&background_color=181818&border_radius=18&bar_color_cover=true&interchange=true&profanity=true&hide_remaster=true&mode=dark)](https://spotify-github-profile.kittinanx.com/api/view?uid=31yeisq3xtb66gzn4mwvrflb6vji&redirect=true)
+<a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31yeisq3xtb66gzn4mwvrflb6vji&redirect=true">
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31yeisq3xtb66gzn4mwvrflb6vji&cover_image=true&theme=spotify-embed&show_offline=true&background_color=181818&border_radius=18&bar_color_cover=true&interchange=true&profanity=true&hide_remaster=true&mode=dark" alt="Currently listening on Spotify" />
+</a>
+
+</div>
 
 ## 📊 GitHub Stats 
 
