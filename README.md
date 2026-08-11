@@ -23,7 +23,6 @@
 
 </div>
 
-## Skills
 
 <div align="center" style="display:flex; justify-content:center; text-align:center;">
 
