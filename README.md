@@ -6,7 +6,7 @@
 ![gif](gif/columbina%20genshin-impact-genshin.gif)
 
 
-####  
+#### Hi !, i'm Muhadiib <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGRpODI0Mzg1bjh2OHV5Z2hmanBrYTJ1MTRzamNhcmwyaTZrcXg2ZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qgouC6OjNEMmkWJSqB/giphy.gif" width="30px">
 
 <!-- laguuuuuuuuu -->
 
