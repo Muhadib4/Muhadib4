@@ -1,3 +1,7 @@
+<div data-importer="border">
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=blink&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=tokyonight"  />
+</div>
+
 ![banner](img/github-header-banner%20columbina.png)
 <img src="gif/columbina%20genshin-impact-genshin.gif" width="850" height="450" alt="Columbina" style="display:block;">
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt" width="850" alt="Header" style="display:block;">
@@ -20,9 +24,9 @@ I’m currently learning Full-Stack Development and exploring how modern web tec
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
 
-<img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31yeisq3xtb66gzn4mwvrflb6vji&cover_image=true&theme=compact&show_offline=false&background_color=181818&border_radius=18&bar_color_cover=true&interchange=true&profanity=true&hide_remaster=true&mode=dark" alt="Spotify" width="200">
+<a href="https://open.spotify.com/user/31yeisq3xtb66gzn4mwvrflb6vji?si=57b6cf0c8a054623" target="_blank" rel="noopener noreferrer"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31yeisq3xtb66gzn4mwvrflb6vji&cover_image=true&theme=compact&show_offline=false&background_color=181818&border_radius=18&bar_color_cover=true&interchange=true&profanity=true&hide_remaster=true&mode=dark" alt="Spotify" width="200"></a>
 
-<img src="https://spotify-recently-played-readme.vercel.app/api?user=31yeisq3xtb66gzn4mwvrflb6vji&count=5&width=400" alt="Recently Played" width="300">
+<a href="https://open.spotify.com/user/31yeisq3xtb66gzn4mwvrflb6vji?si=57b6cf0c8a054623" target="_blank" rel="noopener noreferrer"><img src="https://spotify-recently-played-readme.vercel.app/api?user=31yeisq3xtb66gzn4mwvrflb6vji&count=5&width=400" alt="Recently Played" width="300">
 
 </div>
 
