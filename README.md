@@ -1,10 +1,8 @@
 ![banner](img/github-header-banner%20columbina.png)
-<img src="gif/columbina%20genshin-impact-genshin.gif" width="850" height="300" alt="Columbina">
-<div data-importer="border">
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"/>
-</div>
+<img src="gif/columbina%20genshin-impact-genshin.gif" width="850" height="380" alt="Columbina" style="display:block;">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt" width="850" alt="Header" style="display:block;">
 
----
+
 
 #### Hi !, i'm Muhadiib <img src="gif/hi.gif" width="30px">
 
