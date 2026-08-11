@@ -35,6 +35,9 @@ I’m currently learning Full-Stack Development and exploring how modern web tec
 </div>
 
 
+| ![spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=31yeisq3xtb66gzn4mwvrflb6vji&cover_image=true&theme=compact&show_offline=false&background_color=181818&border_radius=18&bar_color_cover=true&interchange=true&profanity=true&hide_remaster=true&mode=dark&width=300) | ![spotify recently playes](https://spotify-recently-played-readme.vercel.app/api?user=31yeisq3xtb66gzn4mwvrflb6vji&count=5&width=300) |
+|---|---|
+
 ---
 
 </div>
