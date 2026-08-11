@@ -1,5 +1,5 @@
 <div data-importer="border">
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=blink&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=tokyonight"  />
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=blink&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=cobalt"  />
 </div>
 
 ![banner](img/github-header-banner%20columbina.png)
@@ -18,17 +18,18 @@ I’m currently learning Full-Stack Development and exploring how modern web tec
 
 ---
 
-[![d3eep.'s Discord status](https://dsc-readme.tsuni.dev/api/user/747981930447765567?pronouns=he%2Fhim&banner=https%3A%2F%2Fmedia0.giphy.com%2Fmedia%2Fv1.Y2lkPTc5MGI3NjExY3AzMWxmMWdhN3hwcGllM2FoeDIzOWYwZjF2cm12ejU2cHkzYWluMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw%2FUg59K3twaiPYiHG8aN%2Fgiphy.gif&theme=tokyoNight&width=512&nameColor1=ffffff)](https://discord.gg/skwFubbtqN){:target="_blank" rel="noopener noreferrer"}
+[![d3eep.'s Discord status](https://dsc-readme.tsuni.dev/api/user/747981930447765567?pronouns=he%2Fhim&banner=https%3A%2F%2Fmedia0.giphy.com%2Fmedia%2Fv1.Y2lkPTc5MGI3NjExY3AzMWxmMWdhN3hwcGllM2FoeDIzOWYwZjF2cm12ejU2cHkzYWluMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw%2FUg59K3twaiPYiHG8aN%2Fgiphy.gif&theme=tokyoNight&width=512&nameColor1=ffffff)](https://discord.com/users/747981930447765567)
 
 ---
 
-<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; align: center;">
 
 <a href="https://open.spotify.com/user/31yeisq3xtb66gzn4mwvrflb6vji?si=57b6cf0c8a054623" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank', 'noopener,noreferrer'); return false;"><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31yeisq3xtb66gzn4mwvrflb6vji&cover_image=true&theme=compact&show_offline=false&background_color=181818&border_radius=18&bar_color_cover=true&interchange=true&profanity=true&hide_remaster=true&mode=dark" alt="Spotify" width="200"></a>
 
 <a href="https://open.spotify.com/user/31yeisq3xtb66gzn4mwvrflb6vji?si=57b6cf0c8a054623" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href, '_blank', 'noopener,noreferrer'); return false;"><img src="https://spotify-recently-played-readme.vercel.app/api?user=31yeisq3xtb66gzn4mwvrflb6vji&count=5&width=400" alt="Recently Played" width="300"></a>
 
 </div>
+
 
 ---
 
