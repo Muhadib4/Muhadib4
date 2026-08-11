@@ -22,7 +22,7 @@ I’m currently learning Full-Stack Development and exploring how modern web tec
 
 ---
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
 
 <a href="https://open.spotify.com/user/31yeisq3xtb66gzn4mwvrflb6vji">
   <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31yeisq3xtb66gzn4mwvrflb6vji&cover_image=true&theme=compact&show_offline=false&background_color=181818&border_radius=18&bar_color_cover=true&interchange=true&profanity=true&hide_remaster=true&mode=dark" width="200" alt="Spotify">
