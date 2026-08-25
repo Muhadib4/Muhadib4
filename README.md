@@ -7,6 +7,8 @@
 
 I’m currently learning Full-Stack Development and exploring how modern web technologies work together. I’m also interested in Machine Learning and enjoy building projects while continuously improving my skills.
 
+I’m currently a first-year undergraduate student pursuing a Bachelor’s degree in Informatics, where I’m expanding my knowledge in computer science, software development, and technology.
+
 <!-- laguuuuuuuuu -->
 
 <div align="center">
