@@ -55,6 +55,8 @@ I’m currently a first-year undergraduate student pursuing a Bachelor’s degre
 
 </div>
 
+---
+
 <picture data-importer="pacman">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph.svg">
