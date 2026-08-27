@@ -1,4 +1,20 @@
 ![banner](img/github-header-banner%20columbina.png)
+
+## 🕹️ Arcade Contribution Graph
+
+<!-- Placed near the top so playback is visible from its beginning -->
+<picture data-importer="pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph.svg">
+</picture>
+
+<picture data-importer="galaga">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/galaga-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/galaga-contribution-graph.svg">
+  <img alt="Galaga contribution graph" src="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/galaga-contribution-graph.svg">
+</picture>
+
 <img src="gif/columbina%20genshin-impact-genshin.gif" width="850" height="450" alt="Columbina" style="display:block;">
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt" width="850" alt="Header" style="display:block;">
 
@@ -55,16 +71,3 @@ I’m currently a first-year undergraduate student pursuing a Bachelor’s degre
 |**Arduino**| <img src="https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white"> <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white">
 
 </div>
-
-
-<picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph.svg">
-</picture>
-
-<picture data-importer="galaga">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/galaga-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/galaga-contribution-graph.svg">
-  <img alt="Galaga contribution graph" src="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/galaga-contribution-graph.svg">
-</picture>
