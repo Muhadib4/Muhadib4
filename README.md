@@ -56,19 +56,12 @@ I’m currently a first-year undergraduate student pursuing a Bachelor’s degre
 
 </div>
 
-<br clear="both">
-
-## 🕹️ Arcade Contribution Graph
-
-### 👻 Pac-Man
 
 <picture data-importer="pacman">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph.svg">
   <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph.svg">
 </picture>
-
-### 🚀 Galaga
 
 <picture data-importer="galaga">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/galaga-contribution-graph-dark.svg">
