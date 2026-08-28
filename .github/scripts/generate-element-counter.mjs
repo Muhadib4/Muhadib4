@@ -12,7 +12,7 @@ async function getViews() {
     });
     if (!response.ok) throw new Error(`Counter returned ${response.status}`);
     const svg = await response.text();
-    const digits = [...svg.matchAll(/<tspan\\b[^>]*>(\\d)<\\/tspan>/g)].map((match) => match[1]);
+    const digits = [...svg.matchAll(/<tspan\b[^>]*>(\d)<\/tspan>/g)].map((match) => match[1]);
     if (digits.length === 0) throw new Error('Counter SVG contained no digits');
     const value = Number(digits.join(''));
     return Number.isFinite(value) ? Math.max(0, Math.trunc(value)) : 0;
