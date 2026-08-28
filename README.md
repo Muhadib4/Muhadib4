@@ -1,11 +1,6 @@
 ![banner](img/github-header-banner%20columbina.png)<img src="gif/columbina%20genshin-impact-genshin.gif" width="850" height="450" alt="Columbina" style="display:block;">
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt" width="850" alt="Header" style="display:block;">
 
-<div align="center">
-  <sub>⚔️ Realm Visitors ⚔️</sub><br>
-  <img src="https://count.getloli.com/@Muhadib4?name=Muhadib4&theme=nixietube-1&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="Muhadib4 profile views counter">
-</div>
-
 
 ## Hi !, i'm Muhadiib <img src="gif/hi.gif" width="30px">
 
@@ -61,3 +56,11 @@ I’m currently a first-year undergraduate student pursuing a Bachelor’s degre
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/galaga-contribution-graph.svg">
   <img loading="lazy" decoding="async" alt="Galaga contribution graph" src="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/galaga-contribution-graph.svg">
 </picture>
+
+<div align="center">
+
+### ⚔️ Realm Visitors ⚔️
+
+<img src="https://count.getloli.com/@Muhadib4?name=Muhadib4&theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="Muhadib4 profile views counter">
+
+</div>
