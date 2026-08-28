@@ -4,12 +4,17 @@ const username = process.env.GITHUB_REPOSITORY_OWNER || 'Muhadib4';
 
 async function getViews() {
   try {
-    const response = await fetch(`https://views.igorkowalczyk.dev/api/json/${username}`, {
-      headers: { 'user-agent': 'azure-nature-counter/1.0' },
+    const response = await fetch(`https://count.getloli.com/@${username}?theme=normal-1&padding=7&darkmode=0`, {
+      headers: {
+        accept: 'image/svg+xml',
+        'user-agent': 'azure-nature-counter/1.0',
+      },
     });
     if (!response.ok) throw new Error(`Counter returned ${response.status}`);
-    const data = await response.json();
-    const value = Number(data.views ?? data.num);
+    const svg = await response.text();
+    const digits = [...svg.matchAll(/<use\\b[^>]*xlink:href="#(\\d)"/g)].map((match) => match[1]);
+    if (digits.length === 0) throw new Error('Counter SVG contained no digits');
+    const value = Number(digits.join(''));
     return Number.isFinite(value) ? Math.max(0, Math.trunc(value)) : 0;
   } catch (error) {
     console.warn('Could not fetch profile views:', error.message);
