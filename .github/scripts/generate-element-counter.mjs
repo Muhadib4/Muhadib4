@@ -4,15 +4,17 @@ const username = process.env.GITHUB_REPOSITORY_OWNER || 'Muhadib4';
 
 async function getViews() {
   try {
-    const response = await fetch(`https://profile-counter.deno.dev/${username}/`, {
+    const response = await fetch(`https://profile-counter.glitch.me/${username}/count.svg`, {
       headers: {
-        accept: 'application/json',
+        accept: 'image/svg+xml',
         'user-agent': 'azure-nature-counter/1.0',
       },
     });
     if (!response.ok) throw new Error(`Counter returned ${response.status}`);
-    const data = await response.json();
-    const value = Number(data.count);
+    const svg = await response.text();
+    const digits = [...svg.matchAll(/<tspan\\b[^>]*>(\\d)<\\/tspan>/g)].map((match) => match[1]);
+    if (digits.length === 0) throw new Error('Counter SVG contained no digits');
+    const value = Number(digits.join(''));
     return Number.isFinite(value) ? Math.max(0, Math.trunc(value)) : 0;
   } catch (error) {
     console.warn('Could not fetch profile views:', error.message);
