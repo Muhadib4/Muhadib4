@@ -62,7 +62,8 @@ I’m currently a first-year undergraduate student pursuing a Bachelor’s degre
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&section=header&color=0:071A2F,35:0B4F8A,70:38BDF8,100:BAE6FD&text=AZURE%20SANCTUARY&fontColor=F0F9FF&fontSize=32&fontAlignY=34&animation=twinkling&desc=WHERE%20CODE%20MEETS%20THE%20TIDE&descSize=13&descAlignY=57" alt="Azure Sanctuary">
 
-<img src="https://count.getloli.com/@Muhadib4?name=Muhadib4&theme=ai-1&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="Muhadib4 profile views counter">
+<img width="850" src="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/element-profile-counter.svg" alt="Elemental profile views counter: water, forest, earth, fire, wind, storm, and ice">
+<img src="https://github-view-counter.vercel.app/api?username=Muhadib4&style=invisible" width="1" height="1" alt="">
 
 <br><br>
 
