@@ -57,10 +57,17 @@ I’m currently a first-year undergraduate student pursuing a Bachelor’s degre
   <img loading="lazy" decoding="async" alt="Galaga contribution graph" src="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/galaga-contribution-graph.svg">
 </picture>
 
+<!-- Profile views: Abyssal Gate -->
 <div align="center">
 
-### ⚔️ Realm Visitors ⚔️
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=150&color=0:050B18,45:0A2752,100:1557A0&text=ABYSSAL%20GATE&fontColor=C9E2FF&fontSize=34&fontAlignY=48&animation=fadeIn&stroke=58A6FF&strokeWidth=1&desc=REALM%20VISITORS&descSize=14&descAlignY=72" alt="Abyssal Gate">
 
-<img src="https://count.getloli.com/@Muhadib4?name=Muhadib4&theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="Muhadib4 profile views counter">
+<img src="https://count.getloli.com/@Muhadib4?name=Muhadib4&theme=ai-1&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="Muhadib4 profile views counter">
+
+<br>
+
+<sub>✦ Every visit leaves an echo beyond the gate ✦</sub>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:1557A0,50:0A2752,100:050B18" alt="Abyssal footer">
 
 </div>
