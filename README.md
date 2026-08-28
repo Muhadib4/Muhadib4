@@ -1,16 +1,17 @@
-<div data-importer="border">
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=blink&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=cobalt"  />
-</div>
-
-![banner](img/github-header-banner%20columbina.png)
-<img src="gif/columbina%20genshin-impact-genshin.gif" width="850" height="450" alt="Columbina" style="display:block;">
+![banner](img/github-header-banner%20columbina.png)<img src="gif/columbina%20genshin-impact-genshin.gif" width="850" height="450" alt="Columbina" style="display:block;">
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=cobalt" width="850" alt="Header" style="display:block;">
 
+<div align="center">
+  <sub>⚔️ Realm Visitors ⚔️</sub><br>
+  <img src="https://count.getloli.com/@Muhadib4?name=Muhadib4&theme=nixietube-1&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="Muhadib4 profile views counter">
+</div>
 
 
 ## Hi !, i'm Muhadiib <img src="gif/hi.gif" width="30px">
 
 I’m currently learning Full-Stack Development and exploring how modern web technologies work together. I’m also interested in Machine Learning and enjoy building projects while continuously improving my skills.
+
+I’m currently a first-year undergraduate student pursuing a Bachelor’s degree in Informatics, where I’m expanding my knowledge in computer science, software development, and technology.
 
 <!-- laguuuuuuuuu -->
 
@@ -47,16 +48,16 @@ I’m currently learning Full-Stack Development and exploring how modern web tec
 
 </div>
 
-
-<br clear="both">
-
-<img data-importer="snake" src="https://raw.githubusercontent.com/m/m/snake-output/snake.svg" alt="Snake animation" />
-
-###
+---
 
 <picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/m/m/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/m/m/pacman-output/pacman-contribution-graph.svg?game=pacman">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/m/m/pacman-output/pacman-contribution-graph.svg?game=pacman">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph.svg">
+  <img loading="lazy" decoding="async" alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/pacman-contribution-graph.svg">
 </picture>
 
+<picture data-importer="galaga">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/galaga-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/galaga-contribution-graph.svg">
+  <img loading="lazy" decoding="async" alt="Galaga contribution graph" src="https://raw.githubusercontent.com/Muhadib4/Muhadib4/arcade-output/galaga-contribution-graph.svg">
+</picture>
