@@ -24,115 +24,64 @@ async function getViews() {
 
 const elements = [
   {
-    name: 'WATER',
-    color: '#38BDF8',
-    glow: '#7DD3FC',
-    icon: `<path d="M52 9C43 22 35 31 35 42a17 17 0 0 0 34 0C69 31 61 22 52 9Z" fill="#38BDF8" opacity=".95"/>
-      <path d="M41 43c5 5 16 5 22 0" fill="none" stroke="#E0F2FE" stroke-width="3" stroke-linecap="round">
-        <animate attributeName="d" values="M41 43c5 5 16 5 22 0;M41 41c6 7 16 7 22 0;M41 43c5 5 16 5 22 0" dur="2.4s" repeatCount="indefinite"/>
-      </path>`,
+    name: 'WATER', color: '#38BDF8', glow: '#BAE6FD',
+    spirit: `<path d="M50 5C35 26 24 38 24 57a26 26 0 0 0 52 0C76 38 65 26 50 5Z" fill="#0EA5E9" opacity=".88"/><path d="M31 59c10 8 28 8 38 0M34 69c9 6 23 6 32 0" fill="none" stroke="#E0F2FE" stroke-width="3" stroke-linecap="round"><animate attributeName="d" values="M31 59c10 8 28 8 38 0M34 69c9 6 23 6 32 0;M31 57c11 11 28 11 38 0M34 67c9 8 23 8 32 0;M31 59c10 8 28 8 38 0M34 69c9 6 23 6 32 0" dur="2.8s" repeatCount="indefinite"/></path><circle cx="39" cy="42" r="5" fill="#E0F2FE" opacity=".75"/>`,
   },
   {
-    name: 'FOREST',
-    color: '#2DD4BF',
-    glow: '#99F6E4',
-    icon: `<path d="M52 8 34 31h10L30 48h18v10h8V48h18L60 31h10Z" fill="#2DD4BF"/>
-      <path d="M52 14v35" stroke="#CCFBF1" stroke-width="2" opacity=".75">
-        <animateTransform attributeName="transform" type="rotate" values="-2 52 56;2 52 56;-2 52 56" dur="3s" repeatCount="indefinite"/>
-      </path>`,
+    name: 'FOREST', color: '#2DD4BF', glow: '#99F6E4',
+    spirit: `<path d="M45 49h10v45H45Z" fill="#0F766E"/><path d="M50 8 27 40h12L20 65h60L61 40h12Z" fill="#14B8A6"/><path d="M50 16 36 40h11L32 58h36L53 40h11Z" fill="#5EEAD4" opacity=".55"/><path d="M31 91c8-9 15-10 19-3 5-8 12-7 19 3" fill="none" stroke="#99F6E4" stroke-width="3" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" values="-2 50 94;2 50 94;-2 50 94" dur="4s" repeatCount="indefinite"/></path>`,
   },
   {
-    name: 'EARTH',
-    color: '#60A5FA',
-    glow: '#BFDBFE',
-    icon: `<path d="m19 51 18-30 12 17 9-13 27 26Z" fill="#2563EB"/>
-      <path d="m37 21 7 10-6-2-5 4Z" fill="#DBEAFE"/>
-      <path d="M18 51h68" stroke="#93C5FD" stroke-width="4" stroke-linecap="round"/>`,
+    name: 'EARTH', color: '#60A5FA', glow: '#BFDBFE',
+    spirit: `<path d="M9 82 34 29l14 22 13-31 31 62Z" fill="#1D4ED8" opacity=".9"/><path d="m34 29 9 15-8-3-7 7ZM61 20l10 20-10-5-8 8Z" fill="#DBEAFE"/><path d="M10 82h82M22 91h55" stroke="#93C5FD" stroke-width="4" stroke-linecap="round"/><circle cx="18" cy="70" r="5" fill="#60A5FA"><animate attributeName="cy" values="70;66;70" dur="3s" repeatCount="indefinite"/></circle>`,
   },
   {
-    name: 'FIRE',
-    color: '#FB923C',
-    glow: '#FDBA74',
-    icon: `<path d="M53 7c5 13-6 16 2 26 3-8 10-10 9-20 11 11 15 22 9 32-8 15-32 15-40 0-6-12 1-23 12-33-1 10 2 14 8 18 4-8-3-13 0-23Z" fill="#F97316">
-        <animate attributeName="opacity" values=".78;1;.82;1;.78" dur="1.3s" repeatCount="indefinite"/>
-      </path>
-      <path d="M52 33c8 8 7 18 0 23-8-4-9-14 0-23Z" fill="#FDE68A"/>`,
+    name: 'FIRE', color: '#FB923C', glow: '#FED7AA',
+    spirit: `<path d="M53 5c9 19-5 24 4 38 3-12 13-16 12-31 18 17 25 37 14 55-13 24-51 24-65-1C8 47 19 29 36 14c-2 16 3 23 13 29 7-14-5-23 4-38Z" fill="#F97316"><animate attributeName="opacity" values=".78;1;.82;1;.78" dur="1.25s" repeatCount="indefinite"/></path><path d="M51 46c13 12 11 30-1 38-13-8-15-24 1-38Z" fill="#FDE68A"/>`,
   },
   {
-    name: 'WIND',
-    color: '#7DD3FC',
-    glow: '#E0F2FE',
-    icon: `<path d="M19 25h48c13 0 13-14 3-15-6-1-10 2-12 6M17 36h63c12 0 12 14 2 16-7 1-11-3-12-7M24 48h27" fill="none" stroke="#BAE6FD" stroke-width="4" stroke-linecap="round" stroke-dasharray="90">
-        <animate attributeName="stroke-dashoffset" values="90;0;-90" dur="3s" repeatCount="indefinite"/>
-      </path>`,
+    name: 'WIND', color: '#7DD3FC', glow: '#E0F2FE',
+    spirit: `<path d="M9 31h58c20 0 20-21 5-23-9-1-15 4-17 10M7 52h79c17 0 17 21 2 23-10 2-17-5-18-13M17 76h39" fill="none" stroke="#BAE6FD" stroke-width="5" stroke-linecap="round" stroke-dasharray="120"><animate attributeName="stroke-dashoffset" values="120;0;-120" dur="3.4s" repeatCount="indefinite"/></path><path d="M26 17c10-8 19-5 18 3-1 7-10 11-18-3ZM76 82c-9 8-18 5-17-3 1-7 9-11 17 3Z" fill="#38BDF8" opacity=".8"><animateTransform attributeName="transform" type="translate" values="-4 0;5 -3;-4 0" dur="3s" repeatCount="indefinite"/></path>`,
   },
   {
-    name: 'STORM',
-    color: '#A78BFA',
-    glow: '#DDD6FE',
-    icon: `<path d="M31 36c0-9 7-16 16-16 5-10 21-9 25 2 9 0 15 6 15 14 0 8-7 14-16 14H35c-10 0-17-6-17-14 0-7 5-12 13-13" fill="#93C5FD"/>
-      <path d="m55 35-10 18h10l-5 15 20-24H59l7-9Z" fill="#FDE047">
-        <animate attributeName="opacity" values="1;.45;1;1;.6;1" dur="1.8s" repeatCount="indefinite"/>
-      </path>`,
+    name: 'STORM', color: '#A78BFA', glow: '#DDD6FE',
+    spirit: `<path d="M24 37c1-13 11-23 25-23 8-14 31-12 36 4 13 1 21 10 20 22-1 12-11 20-25 20H29C14 60 4 51 5 40c1-10 8-17 19-18" fill="#60A5FA"/><path d="m54 43-16 29h15l-8 25 31-39H60l11-15Z" fill="#FDE047"><animate attributeName="opacity" values="1;.35;1;1;.55;1" dur="1.7s" repeatCount="indefinite"/></path><circle cx="25" cy="71" r="3" fill="#A78BFA"><animate attributeName="cy" values="67;84;67" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="83" cy="69" r="3" fill="#7DD3FC"><animate attributeName="cy" values="69;88;69" dur="2.2s" repeatCount="indefinite"/></circle>`,
   },
   {
-    name: 'ICE',
-    color: '#67E8F9',
-    glow: '#CFFAFE',
-    icon: `<g stroke="#CFFAFE" stroke-width="3" stroke-linecap="round" transform="translate(52 34)">
-        <path d="M0-25V25M-22-13 22 13M-22 13 22-13M0-25l-5 6M0-25l5 6M0 25l-5-6M0 25l5-6"/>
-        <circle r="5" fill="#67E8F9" stroke="none"/>
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite" additive="sum"/>
-      </g>`,
+    name: 'ICE', color: '#67E8F9', glow: '#CFFAFE',
+    spirit: `<g stroke="#CFFAFE" stroke-width="4" stroke-linecap="round" transform="translate(50 50)"><path d="M0-42V42M-37-21 37 21M-37 21 37-21M0-42l-8 10M0-42l8 10M0 42l-8-10M0 42l8-10M-37-21l13 2M-37-21l5 12M37 21l-13-2M37 21l-5-12"/><circle r="11" fill="#22D3EE" stroke="#E0F2FE"/></g><path d="M19 86 9 96M83 9 92 1" stroke="#67E8F9" stroke-width="3" stroke-linecap="round"/>`,
   },
 ];
 
-function renderCard(element, digit, index) {
-  const x = 35 + index * 112;
-  return `<g transform="translate(${x} 78)">
-    <rect width="100" height="150" rx="22" fill="url(#card-${index})" stroke="${element.color}" stroke-opacity=".82"/>
-    <rect x="5" y="5" width="90" height="140" rx="18" fill="none" stroke="${element.glow}" stroke-opacity=".15"/>
-    <g transform="translate(-2 8)">${element.icon}</g>
-    <text x="50" y="113" text-anchor="middle" fill="#F0F9FF" font-family="Verdana,DejaVu Sans,sans-serif" font-size="47" font-weight="800" letter-spacing="-2">${digit}</text>
-    <text x="50" y="137" text-anchor="middle" fill="${element.glow}" font-family="Verdana,DejaVu Sans,sans-serif" font-size="9" font-weight="700" letter-spacing="1.4">${element.name}</text>
+function renderSpirit(element, digit, index) {
+  const x = 34 + index * 112;
+  const delay = (index * 0.24).toFixed(2);
+  return `<g transform="translate(${x} 55)">
+    <ellipse cx="50" cy="91" rx="46" ry="13" fill="${element.color}" opacity=".13"/>
+    <circle cx="50" cy="49" r="46" fill="${element.color}" opacity=".08"><animate attributeName="r" values="42;48;42" dur="4s" begin="${delay}s" repeatCount="indefinite"/><animate attributeName="opacity" values=".05;.14;.05" dur="4s" begin="${delay}s" repeatCount="indefinite"/></circle>
+    <g>${element.spirit}<animateTransform attributeName="transform" type="translate" values="0 1;0 -3;0 1" dur="${(3.2 + index * 0.18).toFixed(2)}s" begin="${delay}s" repeatCount="indefinite"/></g>
+    <g transform="translate(22 57)"><rect width="56" height="48" rx="11" fill="#061426" stroke="${element.color}" stroke-width="2"/><rect x="4" y="4" width="48" height="40" rx="8" fill="url(#digit-stone)" stroke="${element.glow}" stroke-opacity=".25"/><text x="28" y="36" text-anchor="middle" fill="#F0F9FF" font-family="Verdana,DejaVu Sans,sans-serif" font-size="37" font-weight="900">${digit}</text></g>
+    <text x="50" y="121" text-anchor="middle" fill="${element.glow}" font-family="Verdana,DejaVu Sans,sans-serif" font-size="8" font-weight="800" letter-spacing="1.6">${element.name}</text>
   </g>`;
 }
 
 function renderCounter(count) {
   const digits = String(count).padStart(7, '0').slice(-7).split('');
-  const cardGradients = elements.map((element, index) => `
-    <linearGradient id="card-${index}" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#071A2F"/>
-      <stop offset=".58" stop-color="#0A2F55"/>
-      <stop offset="1" stop-color="${element.color}" stop-opacity=".36"/>
-    </linearGradient>`).join('');
-
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="850" height="255" viewBox="0 0 850 255" role="img" aria-label="Profile views: ${count}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="850" height="205" viewBox="0 0 850 205" role="img" aria-label="Profile views: ${count}">
   <title>Profile views: ${count}</title>
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#061426"/>
-      <stop offset=".5" stop-color="#0B4F8A"/>
-      <stop offset="1" stop-color="#38BDF8"/>
-    </linearGradient>
-    <filter id="soft-glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    ${cardGradients}
+    <linearGradient id="azure-mist" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#061426" stop-opacity="0"/><stop offset=".22" stop-color="#0B4F8A" stop-opacity=".22"/><stop offset=".5" stop-color="#38BDF8" stop-opacity=".15"/><stop offset=".78" stop-color="#0B4F8A" stop-opacity=".22"/><stop offset="1" stop-color="#061426" stop-opacity="0"/></linearGradient>
+    <linearGradient id="digit-stone" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12395E"/><stop offset=".5" stop-color="#071A2F"/><stop offset="1" stop-color="#0B4F8A"/></linearGradient>
+    <filter id="element-glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="850" height="255" rx="28" fill="url(#sky)" opacity=".16"/>
-  <path d="M0 49C120 19 221 72 341 44S578 20 850 52" fill="none" stroke="#7DD3FC" stroke-opacity=".34" stroke-width="2"/>
-  <path d="M0 57C145 31 238 78 376 52S650 31 850 62" fill="none" stroke="#38BDF8" stroke-opacity=".25"/>
-  <text x="425" y="31" text-anchor="middle" fill="#E0F2FE" font-family="Verdana,DejaVu Sans,sans-serif" font-size="18" font-weight="700" letter-spacing="4">ELEMENTAL VISITORS</text>
-  <text x="425" y="53" text-anchor="middle" fill="#7DD3FC" font-family="Verdana,DejaVu Sans,sans-serif" font-size="10" letter-spacing="2">SEVEN FORCES · ONE LIVING REALM</text>
-  <g filter="url(#soft-glow)">
-    ${elements.map((element, index) => renderCard(element, digits[index], index)).join('')}
-  </g>
-  <circle cx="18" cy="20" r="2" fill="#BAE6FD"><animate attributeName="opacity" values=".2;1;.2" dur="2.8s" repeatCount="indefinite"/></circle>
-  <circle cx="820" cy="35" r="3" fill="#7DD3FC"><animate attributeName="opacity" values="1;.2;1" dur="3.5s" repeatCount="indefinite"/></circle>
+  <path d="M18 31C150 8 266 41 410 23S679 8 832 32" fill="none" stroke="#7DD3FC" stroke-opacity=".28"/>
+  <rect x="0" y="39" width="850" height="145" rx="30" fill="url(#azure-mist)"/>
+  <text x="425" y="22" text-anchor="middle" fill="#BAE6FD" font-family="Verdana,DejaVu Sans,sans-serif" font-size="13" font-weight="800" letter-spacing="4">ELEMENTAL VISITORS</text>
+  <g filter="url(#element-glow)">${elements.map((element, index) => renderSpirit(element, digits[index], index)).join('')}</g>
+  <path d="M40 187C170 171 285 199 425 183S688 172 810 188" fill="none" stroke="#38BDF8" stroke-opacity=".22" stroke-width="2"/>
 </svg>`;
 }
+
 
 async function applyAzureGalagaGradient() {
   for (const fileName of ['galaga-contribution-graph.svg', 'galaga-contribution-graph-dark.svg']) {
