@@ -1,12 +1,15 @@
-name: Generate arcade contribution graphs
+name: Generate azure arcade and elemental counter
 
 on:
+  schedule:
+    - cron: '17 */6 * * *'
   workflow_dispatch:
   push:
     branches:
       - main
     paths:
       - '.github/workflows/arcade.yml'
+      - '.github/scripts/generate-element-counter.mjs'
 
 jobs:
   generate:
@@ -16,12 +19,18 @@ jobs:
     timeout-minutes: 20
 
     steps:
+      - name: Check out profile source
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
       - name: Generate Pac-Man and Galaga contribution graphs
         uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa # v5.3.2
         with:
           github_user_name: ${{ github.repository_owner }}
           games: 'pacman,galaga'
           hide_month_labels: 'false'
+
+      - name: Build elemental counter and Azure Galaga theme
+        run: node .github/scripts/generate-element-counter.mjs
 
       - name: Publish arcade SVGs
         uses: crazy-max/ghaction-github-pages@1ebdede6822df72b485a37eecfadbea9a70a3e7d
